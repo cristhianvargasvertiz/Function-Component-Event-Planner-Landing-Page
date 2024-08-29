@@ -4,16 +4,23 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(135deg, #fee6f0 25%, transparent 25%) -50px 0,
-                linear-gradient(225deg, #fee6f0 25%, transparent 25%) -50px 0,
-                linear-gradient(315deg, #fee6f0 25%, transparent 25%),
-                linear-gradient(45deg, #fee6f0 25%, transparent 25%);
+    background:
+    /* El angulo de la direccion a la gradiente lineal, la gradiente no es una pendiente es una distribucion de colores en un transicion suave */
+    /* Al final de codigo se especifica los puntos de origen de cada gradiente limitados en el plano cartesiano */
+    linear-gradient(135deg, #d9f4f7, #f0fcfd 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #d6f0ed, #f0fcfd 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #f0fafa, #cbe9f0 25%, transparent 25%),
+    linear-gradient(45deg, #f0fafa, #d6f0ed 25%, transparent 25%);
+    background-color: #e0f7fa;
     background-size: 100px 100px; /* Adjust the size based on the pattern */
+    font-family: 'Nunito';
+    font-style: italic
   }
   
   header h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    margin-top: 50px;
   }
   
   .description p {
@@ -22,7 +29,7 @@
   }
   
   .get-started-button {
-    background-color: #f85199;
+    background-color: #30B149;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -32,7 +39,7 @@
   }
   
   .get-started-button:hover {
-    background-color: #d32b74;
+    background-color: #2C993F;
   }
   
   .features,
@@ -89,7 +96,7 @@
   }
   
   .submit-button {
-    background-color: #f85199;
+    background-color: #30B149;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -99,7 +106,7 @@
   }
   
   .submit-button:hover {
-    background-color: #d32b74;
+    background-color: #2C993F;
   }
   
   footer {
@@ -123,7 +130,7 @@
     /* padding: 0 10px; */
 }
   .events_categories ul h2{
-    background-color: #e46a9d;
+    background-color: #5B4034;
     text-align: center;
     padding: 5px 10px;
     color: white;
