@@ -3,7 +3,8 @@ const Footer = () => {
     return (
         <>
  <footer>
- <p>&copy; Cristhian_Vargas_Vertiz. All rights reserved.</p>
+ <p>Original Code &copy; 2020, IBM, licensed under The Apache License.</p>
+ <p>Modified by &copy; Cristhian_Vargas_Vertiz.</p>
  </footer>
         </>
     )}
